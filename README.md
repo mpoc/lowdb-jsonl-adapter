@@ -10,11 +10,13 @@ npm i lowdb-jsonl-adapter
 
 ## Usage
 
-```js
+```ts
 import { Low } from 'lowdb'
 import { JSONLFile } from 'lowdb-jsonl-adapter'
 
-const adapter = new JSONLFile('db.jsonl')
+type User = { id: number; name: string }
+
+const adapter = new JSONLFile<User>('db.jsonl')
 const db = new Low(adapter, [])
 
 await db.read()
@@ -24,11 +26,13 @@ await db.write()
 
 Sync:
 
-```js
+```ts
 import { LowSync } from 'lowdb'
 import { JSONLFileSync } from 'lowdb-jsonl-adapter'
 
-const adapter = new JSONLFileSync('db.jsonl')
+type User = { id: number; name: string }
+
+const adapter = new JSONLFileSync<User>('db.jsonl')
 const db = new LowSync(adapter, [])
 
 db.read()
