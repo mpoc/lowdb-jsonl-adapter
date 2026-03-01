@@ -15,6 +15,9 @@
     "build": "zshy",
     "test": "vitest"
   },
+  "peerDependencies": {
+    "lowdb": ">=7"
+  },
   "devDependencies": {
     "@tsconfig/node24": "^24.0.4",
     "@types/node": "^24.11.0",
