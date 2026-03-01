@@ -11,8 +11,12 @@
   "author": "mpoc",
   "repository": "github:mpoc/lowdb-jsonl-adapter",
   "zshy": "./src/index.ts",
+  "scripts": {
+    "test": "vitest"
+  },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.13",
+    "lowdb": "^7.0.1",
     "vitest": "^4.0.18",
     "zshy": "^0.7.0"
   },
