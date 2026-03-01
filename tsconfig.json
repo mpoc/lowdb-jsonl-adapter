@@ -1,6 +1,11 @@
 {
-  "extends": "@tsconfig/recommended/tsconfig.json",
-  "exclude": [
-    "opensrc"
-  ]
+  "extends": "@tsconfig/node24/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "dist",
+    "declaration": true,
+    "types": ["node"]
+  },
+  "include": ["src"],
+  "exclude": ["opensrc"]
 }
