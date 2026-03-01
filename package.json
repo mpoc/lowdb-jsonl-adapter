@@ -9,5 +9,23 @@
   ],
   "license": "MIT",
   "author": "mpoc",
-  "repository": "github:mpoc/lowdb-jsonl-adapter"
+  "repository": "github:mpoc/lowdb-jsonl-adapter",
+  "zshy": "./src/index.ts",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.13",
+    "zshy": "^0.7.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  }
 }
