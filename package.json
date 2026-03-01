@@ -12,6 +12,7 @@
   "repository": "github:mpoc/lowdb-jsonl-adapter",
   "zshy": "./src/index.ts",
   "scripts": {
+    "build": "zshy",
     "test": "vitest"
   },
   "devDependencies": {
