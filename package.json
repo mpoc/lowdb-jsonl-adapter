@@ -1,0 +1,13 @@
+{
+  "name": "lowdb-jsonl-adapter",
+  "version": "0.0.1",
+  "description": "A Lowdb adapter for JSONL files",
+  "keywords": [
+    "lowdb",
+    "jsonl",
+    "adapter"
+  ],
+  "license": "MIT",
+  "author": "mpoc",
+  "repository": "github:mpoc/lowdb-jsonl-adapter"
+}
