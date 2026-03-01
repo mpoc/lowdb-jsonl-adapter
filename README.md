@@ -1,0 +1,1 @@
+# lowdb-jsonl-adapter
